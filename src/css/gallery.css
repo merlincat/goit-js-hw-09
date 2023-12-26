@@ -1,6 +1,7 @@
 /* .gallery-section {
   height: 100vh;
 } */
+@import url('./reset.css');
 
 .gallery img {
   display: block;

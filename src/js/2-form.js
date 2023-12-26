@@ -1,5 +1,3 @@
-'use strict';
-
 const LS_KEY = 'feedback-form-state';
 const form = document.querySelector('.feedback-form');
 const emailInput = form.querySelector('input[name="email"]');

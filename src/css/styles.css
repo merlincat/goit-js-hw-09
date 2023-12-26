@@ -5,9 +5,6 @@
   |============================
 */
 @import url('./reset.css');
-@import 'simplelightbox/dist/simple-lightbox.min.css';
-@import url('./gallery.css');
-@import url('./form.css');
 
 :root {
   font-family: 'Montserrat', sans-serif;
@@ -29,4 +26,25 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  padding-top: 40px;
+  text-align: center;
+}
+.main-list {
+  padding: 40px;
+}
+.list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.list-item a {
+  padding: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.list-item a:hover {
+  color: #007bff;
 }
